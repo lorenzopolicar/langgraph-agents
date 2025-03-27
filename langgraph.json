@@ -1,0 +1,11 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./src/react_agent/graph.py:react_agent",
+    "react_agent": "./src/react_agent/graph.py:react_agent",
+    "adaptive_rag_agent": "./src/adaptive_rag_agent/graph.py:adaptive_rag_agent",
+    "sql_agent": "./src/sql_agent/graph.py:sql_agent"
+    
+  },
+  "env": ".env"
+}
